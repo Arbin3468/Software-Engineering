@@ -9,7 +9,7 @@ body{
     background-color: #F5F5F5;
 }
 .images{
-    background-image: url(../images/Background.jpg);
+    background-image: url(./images/Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
