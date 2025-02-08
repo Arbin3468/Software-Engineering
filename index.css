@@ -31,7 +31,7 @@ body{
 li a{
     width:100%;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: bold;
     line-height: 60%;
     margin-right: 20px;
 }
@@ -41,16 +41,32 @@ a:hover{
 .login-btn a{
     text-decoration: none;
     width:8vw;
-    font-size: 20px;
     font-weight: bold;
-    border-radius: 15px;
-    background-color:#0082CE;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:#1f6b97;
+    margin-left: 60px;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+/* login bg */
+
+/* position: absolute;
+left: 90.9%;
+right: 2.15%;
+top: 26.85%;
+bottom: 26.85%;
+
+background: #0082CE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px; */
+
 .center{
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
 }
 .welcome{
     letter-spacing: 7%;
@@ -60,13 +76,14 @@ a:hover{
     min-height: 50vh;
     height: 45vh;
     background-color:rgba(182, 223, 186,.60);
+    border-radius: 20px;
 }
 .welcome-text{
     font-weight: bold;
-    letter-spacing: 7%;
+    letter-spacing: 5%;
     width: 60vw;
     height: 35vh;
-    font-size: 600%;
+    font-size: 500%;
 }
 .des-img img{
     width: 80%;
